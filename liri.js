@@ -105,15 +105,15 @@ if(song === ""){
  spotify
   .search({ type: 'track', query: song })
   .then(function(response) {
-    // console.log(response);
+    console.log(response.tracks.items[0]);
  
-    for (const i in response) {
-        console.log(response.artists)
-        if (response.hasOwnProperty(i)) {
-            const element = response[i];
-            console.log(element)
-        }
-    }
+    // for (const i in response) {
+    //     console.log(response.artists)
+    //     if (response.hasOwnProperty(i)) {
+    //         const element = response[i];
+    //         console.log(element)
+    //     }
+    // }
   })
   .catch(function(err) {
     console.log(err);
