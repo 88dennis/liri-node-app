@@ -32,7 +32,6 @@ function inputArgs() {
     }
     return liriSearch
 }
-
 function searchMovie() {
     var movieName = inputArgs();
 // empty variable for the movie name
