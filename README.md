@@ -26,7 +26,7 @@
 
      * Date of the Event
 
-     ![](images/concert-this default.PNG)
+     ![](concert-this default.PNG)
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
