@@ -26,7 +26,7 @@
 
      * Date of the Event
 
-     ![](concert-this default.PNG)
+     ![](images/concert-this-default.PNG)
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -42,8 +42,8 @@
 
    * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-   ![](images/spotify-this-song default.PNG)
-   ![](images/spotify-this-song search your song.PNG)
+   ![](images/spotify-this-song-default.PNG)
+   ![](images/spotify-this-song-search-your-song.PNG)
 
 
 3. `node liri.js movie-this '<movie name here>'`
@@ -60,11 +60,11 @@
        * Plot of the movie.
        * Actors in the movie.
      ```
-     ![](images/movie-this search a movie.PNG)
+     ![](images/movie-this-search-a-movie.PNG)
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-     ![](images/movie-this default.PNG)
+     ![](images/movie-this-default.PNG)
 
 4. `node liri.js do-what-it-says`
 
@@ -72,7 +72,7 @@
 
      * Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
-     ![](images/concert-this default.PNG)
+     ![](images/concert-this-default.PNG)
 
 
 
