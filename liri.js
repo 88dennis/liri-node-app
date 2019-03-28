@@ -80,6 +80,7 @@ function searchConcerts(artist) {
             // console.log(response.data);
             for (var concert of response.data) {
                 console.log("--------------------------");
+                console.log("Here is where Lauv will perform next!")
                 console.log(concert.venue.name)
                 console.log(concert.datetime)
                 console.log(concert.venue.country)
