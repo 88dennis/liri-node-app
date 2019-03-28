@@ -92,7 +92,7 @@ function searchConcerts(artist) {
 
 function searchSong(song) {
     if (song === "") {
-        song = "the sign ace of base"
+        song = "Enter Sandman Metallica"
         console.log(song);
     }
     var requireVar = require("dotenv").config();
